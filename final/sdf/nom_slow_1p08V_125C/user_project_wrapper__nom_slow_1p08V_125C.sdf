@@ -1,0 +1,401 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "user_project_wrapper")
+ (DATE "Tue Mar 24 16:06:23 2026")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.7.0")
+ (DIVIDER .)
+ (VOLTAGE 1.080::1.080)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 125.000::125.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "user_project_wrapper")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT analog_io[19] sg13g2_IOPad_analog_io\[19\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[18] sg13g2_IOPad_analog_io\[18\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[17] sg13g2_IOPad_analog_io\[17\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[16] sg13g2_IOPad_analog_io\[16\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[15] sg13g2_IOPad_analog_io\[15\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[14] sg13g2_IOPad_analog_io\[14\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[13] sg13g2_IOPad_analog_io\[13\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[12] sg13g2_IOPad_analog_io\[12\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[11] sg13g2_IOPad_analog_io\[11\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[10] sg13g2_IOPad_analog_io\[10\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[9] sg13g2_IOPad_analog_io\[9\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[8] sg13g2_IOPad_analog_io\[8\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[7] sg13g2_IOPad_analog_io\[7\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[6] sg13g2_IOPad_analog_io\[6\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[5] sg13g2_IOPad_analog_io\[5\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[4] sg13g2_IOPad_analog_io\[4\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[3] sg13g2_IOPad_analog_io\[3\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[2] sg13g2_IOPad_analog_io\[2\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[1] sg13g2_IOPad_analog_io\[1\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT analog_io[0] sg13g2_IOPad_analog_io\[0\]\.io.pad (1.111:1.111:1.111) (0.951:0.951:0.951))
+    (INTERCONNECT ui_PAD[6] sg13g2_IOPad_digital_ui\[6\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[5] sg13g2_IOPad_digital_ui\[5\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[4] sg13g2_IOPad_digital_ui\[4\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[3] sg13g2_IOPad_digital_ui\[3\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[2] sg13g2_IOPad_digital_ui\[2\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[1] sg13g2_IOPad_digital_ui\[1\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT ui_PAD[0] sg13g2_IOPad_digital_ui\[0\]\.io.pad (0.236:0.263:0.290) (0.207:0.223:0.240))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[0\]\.io.pad analog_io[0] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[10\]\.io.pad analog_io[10] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[11\]\.io.pad analog_io[11] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[12\]\.io.pad analog_io[12] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[13\]\.io.pad analog_io[13] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[14\]\.io.pad analog_io[14] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[15\]\.io.pad analog_io[15] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[16\]\.io.pad analog_io[16] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[17\]\.io.pad analog_io[17] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[18\]\.io.pad analog_io[18] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[19\]\.io.pad analog_io[19] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[1\]\.io.pad analog_io[1] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[2\]\.io.pad analog_io[2] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[3\]\.io.pad analog_io[3] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[4\]\.io.pad analog_io[4] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[5\]\.io.pad analog_io[5] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[6\]\.io.pad analog_io[6] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[7\]\.io.pad analog_io[7] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[8\]\.io.pad analog_io[8] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_analog_io\[9\]\.io.pad analog_io[9] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[0\]\.io.pad uo_PAD[0] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[1\]\.io.pad uo_PAD[1] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[2\]\.io.pad uo_PAD[2] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[3\]\.io.pad uo_PAD[3] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[4\]\.io.pad uo_PAD[4] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[5\]\.io.pad uo_PAD[5] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[6\]\.io.pad uo_PAD[6] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[7\]\.io.pad uo_PAD[7] (0.000:0.000:0.000))
+    (INTERCONNECT sg13g2_IOPad_digital_uo\[8\]\.io.pad uo_PAD[8] (0.000:0.000:0.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[0\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[10\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[11\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[12\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[13\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[14\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[15\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[16\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[17\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[18\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[19\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[1\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[2\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[3\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[4\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[5\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[6\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[7\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[8\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadAnalog")
+  (INSTANCE sg13g2_IOPad_analog_io\[9\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad pad (1000.000:1000.000:1000.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[0\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[1\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[2\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[3\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[4\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[5\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadIn")
+  (INSTANCE sg13g2_IOPad_digital_ui\[6\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH pad p2c (0.100:0.100:0.100) (0.714:0.727:0.739))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[0\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[1\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[2\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[3\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[4\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[5\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[6\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[7\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sg13g2_IOPadOut30mA")
+  (INSTANCE sg13g2_IOPad_digital_uo\[8\]\.io)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH c2p pad (2.777:2.777:2.777) (2.900:2.900:2.900))
+   )
+  )
+ )
+)
