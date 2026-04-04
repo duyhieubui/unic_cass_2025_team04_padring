@@ -18,12 +18,12 @@ librelane: final/gds/$(NAME).gds
 final/gds/$(NAME).gds:
 	librelane --run-tag $(TAG) --overwrite --manual-pdk --pdk-root $(PDK_ROOT) --pdk $(PDK) $(CONFIG_FILE) --to OpenROAD.GeneratePDN
 
-.PHONY: make_analog_padring
+.PHONY: make_padring
 # Create analog padring
-make_analog_padring:
+make_padring:
+	rm -rf final
 	librelane --run-tag $(TAG)_padring --manual-pdk --pdk-root $(PDK_ROOT) --pdk $(PDK) --from Magic.StreamOut --to Magic.SpiceExtraction --with-initial-state $(PROJECT_DIR)/runs/$(TAG)/17-openroad-padring/state_out.json $(CONFIG_FILE)
 	# copy final results to top directory
-	rm -rf final
 	cp -r runs/$(TAG)_padring/final $(PROJECT_DIR)
 
 .PHONY: view_results
@@ -38,6 +38,8 @@ padring_max_drc:
 	python3 $(PDK_ROOT)/$(PDK)/libs.tech/klayout/tech/drc/run_drc.py \
 		--mp=32 --density_thr=32 \
 		--path=final/gds/$(NAME).gds
+padring_lvs:
+	python3 $(PDK_ROOT)/$(PDK)/libs.tech/klayout/tech/lvs/run_lvs.py --layout=final/gds/$(NAME).gds --netlist=$(NAME).spice
 .PHONY: clean
 clean:
 	-rm -rf drc_run_*
