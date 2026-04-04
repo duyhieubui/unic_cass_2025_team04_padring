@@ -1,0 +1,3 @@
+[submodule "xschem/openpdk-libraries"]
+	path = xschem/openpdk-libraries
+	url = git@github.com:openic-org/openpdk-libraries.git
